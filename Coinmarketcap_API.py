@@ -76,7 +76,7 @@ def info_id(id):
 
 #datas = datas['data']
 def get_info(datas):
-  id_list_all=[]        #6500개의 id를 일차원 list로 저장
+  id_list_all=[]        
   id_list_div=[]   #quote쿼리를 위해서 100개씩 id를 잘라서 저장
   info={}
   for i in range(len(datas)):
